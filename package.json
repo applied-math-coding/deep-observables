@@ -1,5 +1,5 @@
 {
-  "name": "deep-foreign-object-changes",
+  "name": "@applied.math.coding/deep-observables",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -17,5 +17,14 @@
     "jest": "^27.0.6",
     "ts-jest": "^27.0.5",
     "typescript": "^4.3.5"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/applied-math-coding/deep-observables.git"
+  },
+  "bugs": {
+    "url": "https://github.com/applied-math-coding/deep-observables/issues"
+  },
+  "homepage": "https://github.com/applied-math-coding/deep-observables#readme"
 }
