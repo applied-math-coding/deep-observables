@@ -1,0 +1,1 @@
+{"version":3,"file":"observed.decorator.d.ts","sourceRoot":"","sources":["../src/observed.decorator.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,WAAW,EAAE,cAAc,EAAE,MAAM,SAAS,CAAC;AAEtD,MAAM,CAAC,OAAO,UAAU,QAAQ,CAAC,CAAC,SAAS,cAAc,EAAE,EAAE,EAAE,WAAW,CAAC,CAAC,CAAC;iBAC1B,QAAQ;aAAc,MAAM,UAM9E"}
