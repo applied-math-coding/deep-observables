@@ -1,7 +1,9 @@
 # deep-observables
 
 ## Installation:
+```
 npm install @applied.math.coding/deep-observables
+```
 
 ## Basic usage:
 Assume you have three class declarations A, B and C.
@@ -10,6 +12,7 @@ If you want to have the values from such nested classes automatically updating o
 may use the annotation '@observed' and ensure to call the method 'changeEntity'
 with corresponding type and new value.
 
+```
 import { changeEntity, fromJson, observed } from 'deep-observables';
 
 class C {
@@ -50,8 +53,9 @@ const o = fromJson<A>({
 o.p = 'hello';
 o.b.p = 9;
 changeEntity(B, { id: 0, p: 7, q: 2 });
+```
   
 ## Note
   Array types are not supported at the moment.
-  The library is of pure experimental nature.
+  The library is of pure experimental nature!
   Feel invited to extend or to propose changes.
